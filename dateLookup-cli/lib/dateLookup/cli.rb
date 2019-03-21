@@ -1,6 +1,6 @@
-require "project/cli/version"
+require "dateLookup/cli/version"
 
-module Project
+module DateLookup
   module Cli
     class Error < StandardError; end
     # Your code goes here...

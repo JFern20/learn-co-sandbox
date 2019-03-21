@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "project/cli/version"
+require "dateLookup/cli/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "project-cli"
-  spec.version       = Project::Cli::VERSION
+  spec.name          = "dateLookup-cli"
+  spec.version       = DateLookup::Cli::VERSION
   spec.authors       = ["'J Fern'"]
   spec.email         = ["'jfern20@gmail.com'"]
 
